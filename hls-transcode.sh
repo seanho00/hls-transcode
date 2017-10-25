@@ -4,7 +4,7 @@
 
 ## Encoding options for multi-bitrate: [<res>]=<kbps>
 declare -A bitrate
-bitrate=( [full]=0 [720]=2000 [486]=1000 [360]=300 )
+bitrate=( [full]=0 [720]=4000 [486]=2000 [360]=300 )
 
 ffmpeg=/usr/bin/ffmpeg
 
